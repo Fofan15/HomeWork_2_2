@@ -8,6 +8,8 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>CodeHomeWork_2_2</RootNamespace>
     <AssemblyName>CodeHomeWork_2_2</AssemblyName>
+    <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
+    <NoWarn>SA0001;SA1633;SA1200</NoWarn>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -53,6 +55,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="stylecop.json" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
